@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/tourism_dashboard/__init__.py
+src/tourism_dashboard/app.py
+src/tourism_dashboard/callbacks.py
+src/tourism_dashboard/data_access.py
+src/tourism_dashboard/layout.py
+src/tourism_dashboard.egg-info/PKG-INFO
+src/tourism_dashboard.egg-info/SOURCES.txt
+src/tourism_dashboard.egg-info/dependency_links.txt
+src/tourism_dashboard.egg-info/requires.txt
+src/tourism_dashboard.egg-info/top_level.txt
+tests/test_browser.py
+tests/test_data_access.py

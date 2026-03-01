@@ -1,0 +1,19 @@
+# COMP0034 Coursework 1 Submission
+# Replace the placeholder values with your actual details
+
+# 1. GitHub commit URL (must be before Moodle submission deadline)
+commit_url: "https://github.com/ucl-comp0035/REPLACE-WITH-YOUR-REPO/commit/REPLACE-WITH-COMMIT-HASH"
+
+# 2. App directory and file
+app_dir: src/tourism_dashboard/app.py
+
+# 3. Tests directory
+tests_dir: tests
+
+# 4. App type
+app_type: dash
+
+# 5. Optional
+python: "3.12"
+port: 8050
+run_command: "python src/tourism_dashboard/app.py"

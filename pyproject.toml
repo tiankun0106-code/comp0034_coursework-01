@@ -1,0 +1,51 @@
+[project]
+name = "tourism-dashboard"
+version = "1.0.0"
+description = "Tourism Recovery Analytics Dashboard - Interactive web application for analyzing international visitor arrivals by sea"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+dependencies = [
+    "dash>=2.14.0",
+    "plotly>=5.17.0",
+    "pandas>=2.0.0",
+    "dash-bootstrap-components>=1.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "selenium>=3.141.0,<=4.2.0",
+    "dash[testing]",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-v",
+    "--tb=short",
+    "-ra",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
