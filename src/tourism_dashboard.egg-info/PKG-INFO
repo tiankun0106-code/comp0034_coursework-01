@@ -3,12 +3,17 @@ Name: tourism-dashboard
 Version: 1.0.0
 Summary: Tourism Recovery Analytics Dashboard - Interactive web application for analyzing international visitor arrivals by sea
 License: MIT
-Requires-Python: >=3.10
+Requires-Python: >=3.12
 Description-Content-Type: text/markdown
 Requires-Dist: dash>=2.14.0
 Requires-Dist: plotly>=5.17.0
 Requires-Dist: pandas>=2.0.0
 Requires-Dist: dash-bootstrap-components>=1.5.0
+Requires-Dist: fastapi[standard]>=0.109.0
+Requires-Dist: uvicorn>=0.27.0
+Requires-Dist: sqlmodel>=0.0.14
+Requires-Dist: alembic>=1.13.0
+Requires-Dist: httpx>=0.26.0
 Provides-Extra: dev
 Requires-Dist: pytest>=7.4.0; extra == "dev"
 Requires-Dist: pytest-cov>=4.1.0; extra == "dev"

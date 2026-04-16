@@ -1,7 +1,6 @@
-commit_url: "https://github.com/tiankun0106-code/comp0034_coursework-01/commit/93867f1b9dde6d555cdfc6f6a6b1c07122cc08b4"
-app_dir: src/tourism_dashboard/app.py
-tests_dir: tests
-app_type: dash
-python: "3.12"
-port: 8050
-run_command: "python src/tourism_dashboard/app.py"
+commit_url: "https://github.com/ucl-comp0035/comp0034cw25-tiankun0106-code/commit/9060a240da5c9d50c6a7613f6e53935f87e4c73a"
+app_dir: src/tourism_dashboard/api/main.py
+app_type: fastapi
+port: 8000
+run_command: "fastapi dev src/tourism_dashboard/api/main.py"
+test_dir: tests

@@ -3,7 +3,7 @@ name = "tourism-dashboard"
 version = "1.0.0"
 description = "Tourism Recovery Analytics Dashboard - Interactive web application for analyzing international visitor arrivals by sea"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 license = {text = "MIT"}
 
 dependencies = [
@@ -11,6 +11,11 @@ dependencies = [
     "plotly>=5.17.0",
     "pandas>=2.0.0",
     "dash-bootstrap-components>=1.5.0",
+    "fastapi[standard]>=0.109.0",
+    "uvicorn>=0.27.0",
+    "sqlmodel>=0.0.14",
+    "alembic>=1.13.0",
+    "httpx>=0.26.0",
 ]
 
 [project.optional-dependencies]

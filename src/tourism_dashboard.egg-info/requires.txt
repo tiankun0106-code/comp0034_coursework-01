@@ -2,6 +2,11 @@ dash>=2.14.0
 plotly>=5.17.0
 pandas>=2.0.0
 dash-bootstrap-components>=1.5.0
+fastapi[standard]>=0.109.0
+uvicorn>=0.27.0
+sqlmodel>=0.0.14
+alembic>=1.13.0
+httpx>=0.26.0
 
 [dev]
 pytest>=7.4.0
